@@ -1,0 +1,9 @@
+version: '3'
+services:
+    gtrends:
+        container_name: gtrends
+        ports:
+            - '8888:8888'
+        volumes:
+            - '/Users/somd7w/Desktop/Trading/Projects/google_trends:/home/jovyan/work'
+        image: quant_projects:trends
