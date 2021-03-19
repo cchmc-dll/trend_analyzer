@@ -5,5 +5,5 @@ services:
         ports:
             - '8888:8888'
         volumes:
-            - '/Users/somd7w/Desktop/Trading/Projects/google_trends:/home/jovyan/work'
-        image: quant_projects:trends
+            - C:\Users\SOMD7W\Desktop\DL_Projects\trend_analyzer:/home/jovyan/work
+        image: chezhipower/quant_projects:trends
